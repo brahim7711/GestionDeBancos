@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicios - SabaSoft</title>
+  <link rel="shortcut icon" href="logo.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="gestor_banca.css" />
+</head>
+<body style="background: url('../media/fondo_ciudad.jpg') no-repeat center center fixed; background-size: cover;">
+  <!-- Header -->
+  <header class="bg-dark text-white">
+    <div class="container d-flex flex-wrap align-items-center justify-content-between py-3">
+      <!-- Logo de nuestra empresa -->
+      <a href="gestor_banca.html">
+        <img src="sabasoft_header_logo.png" alt="logo" class="mb-3 mb-md-0" style="width: 150px; height: auto;">
+      </a>
+      <button class="navbar-toggler d-md-none navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="nav flex-column flex-md-row text-center text-md-start collapse d-md-flex" id="navbarNav">
+        <li class="nav-item"><a class="nav-link lista1 text-white" href="../html/gestor_banca.html#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link lista1 text-white" href="../html/gestor_banca.html#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link lista1 text-white" href="../html/gestor_banca.html#equipo">Nosotros</a></li>
+        <li class="nav-item">
+          <a href="../html/contacto.html" class="btn btn-primary px-4 py-2 text-white border-1">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Sección de Imágenes y Explicación -->
+  <section id="aplicacion" class="py-5" style="margin-top: 100px; margin-bottom: 100px;"> <!-- Se agregó más espacio -->
+    <div class="container bg-white rounded shadow p-4" style="opacity: 0.95;">
+      <h1 class="text-center mb-4" style="font-size: 2rem;">Nuestro Software</h1>
+      <p class="text-center mb-4" style="font-size: 1rem;">
+        Nuestro software está diseñado para optimizar la gestión bancaria, ofreciendo una interfaz intuitiva y funcionalidades avanzadas. A continuación, te mostramos cómo funciona y lo que ofrece.
+      </p>
+      <div class="row">
+        <!-- Imagen 1 -->
+        <div class="col-md-4 mb-4">
+          <img src="../media/interfaz.png" alt="Pantalla 1" class="img-fluid rounded shadow">
+          <h5 class="text-center mt-3">Interfaz de Inicio</h5>
+          <p class="text-center">Accede a todas las funcionalidades desde un panel intuitivo y organizado.</p>
+        </div>
+        <!-- Imagen 2 -->
+        <div class="col-md-4 mb-4">
+          <img src="../media/gestion_de_cuentas.png" alt="Pantalla 2" class="img-fluid rounded shadow">
+          <h5 class="text-center mt-3">Gestión de Cuentas</h5>
+          <p class="text-center">Consulta y administra tus cuentas de manera eficiente y segura.</p>
+        </div>
+        <!-- Imagen 3 -->
+        <div class="col-md-4 mb-4">
+          <img src="../media/transacciones.jpeg" alt="Pantalla 3" class="img-fluid rounded shadow">
+          <h5 class="text-center mt-3">Historial de Transacciones</h5>
+          <p class="text-center">Revisa tus transacciones con detalles claros y organizados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Servicios -->
+  <section id="planes" class="py-5" style="margin-top: 100px; margin-bottom: 100px;">
+    <div class="container bg-light rounded shadow p-4" style="max-width: 800px;">
+      <h2 class="text-center mb-4" style="font-size: 1.8rem; color: black;">Planes Disponibles</h2>
+      <p class="text-center mb-4" style="color: black;">
+        Descubre las características incluidas en cada uno de nuestros planes.
+      </p>
+      <div class="table-responsive">
+        <table class="table table-bordered text-center">
+          <thead style="background: #f8f9fa; color: black;">
+            <tr>
+              <th>Plan</th>
+              <th>Gestión de Cuentas</th>
+              <th>Reportes Avanzados</th>
+              <th>Soporte 24/7</th>
+              <th>Integración con Sistemas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="color: black;">Básico</td>
+              <td><i class="bi bi-check-circle-fill text-success"></i></td>
+              <td><i class="bi bi-x-circle-fill text-danger"></i></td>
+              <td><i class="bi bi-x-circle-fill text-danger"></i></td>
+              <td><i class="bi bi-x-circle-fill text-danger"></i></td>
+            </tr>
+            <tr>
+              <td style="color: black;">Profesional</td>
+              <td><i class="bi bi-check-circle-fill text-success"></i></td>
+              <td><i class="bi bi-check-circle-fill text-success"></i></td>
+              <td><i class="bi bi-check-circle-fill text-success"></i></td>
+              <td><i class="bi bi-x-circle-fill text-danger"></i></td>
+            </tr>
+            <tr>
+              <td style="color: black;">Empresarial</td>
+              <td><i class="bi bi-check-circle-fill text-success"></i></td>
+              <td><i class="bi bi-check-circle-fill text-success"></i></td>
+              <td><i class="bi bi-check-circle-fill text-success"></i></td>
+              <td><i class="bi bi-check-circle-fill text-success"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enlace a JavaScript de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Sección DESPEDIDA -->
+  <footer id="despedida" class="bg-dark text-white py-5" 
+    style="background: linear-gradient(135deg, #1B2838, #4A4A4A); margin-top: 100px;"> <!-- Se agregó más espacio -->
+    <div class="container text-center">
+      <p class="mb-2 fw-bold">© SabaSoft 2025</p>
+      <p class="mb-0 small">
+        <a href="#" class="text-white text-decoration-none me-3">Política de Privacidad</a>
+        <a href="#" class="text-white text-decoration-none me-3">Términos de Uso</a>
+        <a href="#" class="text-white text-decoration-none me-3">Mapa del Sitio</a>
+        <a href="#" class="text-white text-decoration-none">Contacto</a>
+      </p>
+      <div class="mt-5">
+        <p class="small">Síguenos en nuestras redes sociales:</p>
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-5"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-linkedin fs-5"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

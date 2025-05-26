@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SabaSoft</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="logo.ico" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Estilos personalizados -->
+    <link href="gestor_banca.css" rel="stylesheet" />
+  </head>
+  
+  <body>
+    <!-- Header -->
+    <header class="bg-dark text-white">
+      <div id="logo">
+        <a href="#inicio">
+          <img src="sabasoft_header_logo.png" alt="logo" class="mb-3 mb-md-0" style="width: 150px; height: auto;">
+        </a>
+      </div>
+        <div id="menuNav">
+        <!-- Menú de navegación -->
+          <button class="navbar-toggler d-md-none navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="nav flex-column flex-md-row text-center text-md-start collapse d-md-flex" id="navbarNav">
+          <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#equipo">Nosotros</a></li>
+          <li class="nav-item">
+            <a href="contacto.html" class="btn btn-primary px-4 py-2 text-white">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  
+<section id="inicio">
+    <div class="contenido">
+      <div class="info">
+        <h1>Soluciones Innovadoras para la Gestión Bancaria</h1>
+        <p>
+          En <strong>SabaSoft</strong>, desarrollamos software especializado para la gestión bancaria en cajeros automáticos. 
+          Nuestro objetivo es optimizar procesos, mejorar la experiencia del cliente y garantizar la seguridad en cada transacción.
+        </p>
+        <ul>
+          <li>✔ Optimización de procesos bancarios</li>
+          <li>✔ Mejora de la experiencia del cliente</li>
+          <li>✔ Soluciones seguras y confiables</li>
+          <li>✔ Innovación tecnológica constante</li>
+        </ul>
+        <a href="contacto.html" class="btn" style="color: antiquewhite;">Contáctanos</a>
+      </div>
+
+      <div class="form-box">
+        <form>
+          <h2>Portal de cliente</h2>
+          <p>Crear una cuenta</p>
+
+           <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre" />
+
+          <input type="text" class="form-control" id="correo" name="correo" placeholder="Correo electrónico" />
+
+          <input type="password" class="form-control" id="clave" name="clave" placeholder="Ingrese su contraseña" />
+
+          <button type="submit" class="btn btn-primary">Registrarse</button>
+
+          
+        </form>
+        <p class="login-text">¿Tienes una cuenta? <a href="#">Iniciar sesión</a></p>
+      </div>
+    </div>
+
+    <div id="stats" class="row text-center mt-5">
+          <div class="col-md-4">
+            <h3 class="display-3 text-success">120+</h3>
+            <p>Proyectos Completados</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="display-4 text-success">300+</h3>
+            <p>Clientes Satisfechos</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="display-4 text-success">5+</h3>
+            <p>Años de Experiencia</p>
+          </div>
+        </div>
+      </div>
+  </section>
+<section id="servicios">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">Nuestros Servicios</h2>
+        <div id="contenedorServicios" class="row text-center">
+          <div class="col-md-4 serv">
+            <i class="bi bi-laptop fs-1 mb-3"></i>
+            <h5 class="fw-bold">Desarrollo de Software</h5>
+            <p>Soluciones personalizadas para la gestión bancaria.</p>
+          </div>
+          <div class="col-md-4 serv">
+            <i class="bi bi-shield-lock fs-1 mb-3"></i>
+            <h5 class="fw-bold">Seguridad Bancaria</h5>
+            <p>Protección avanzada para transacciones seguras.</p>
+          </div>
+          <div class="col-md-4 serv">
+            <i class="bi bi-graph-up-arrow fs-1 mb-3"></i>
+            <h5 class="fw-bold">Optimización de Procesos</h5>
+            <p>Mejora continua para maximizar la eficiencia.</p>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <a href="servicios.html" class="btn btn-outline-light px-4 py-2">Descubre Más</a>
+        </div>
+      </div>
+    </section>
+    
+<section id="equipo" >
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">Nuestro Equipo</h2>
+        <div class="row text-center">
+          <!-- Brahim -->
+          <div class="col-lg-3 mb-4">
+            <div class="d-flex justify-content-center">
+              <img src="Flag_of_Morocco.svg.png" alt="Brahim Lithim" class="paises" >
+            </div>
+            <h5 class="fw-bold">Brahim Lithim</h5>
+            <p>Programador Senior</p>
+          </div>
+          <!-- Santi -->
+          <div class="col-lg-3 mb-4">
+            <div class="d-flex justify-content-center">
+              <img src="Flag_of_Colombia.svg.png" alt="Santiago Parra" class="paises">
+            </div>
+            <h5 class="fw-bold">Santiago Parra</h5>
+            <p>Director de Tecnología</p>
+          </div>
+          <!-- Alex S -->
+          <div class="col-lg-3 mb-4">
+            <div class="d-flex justify-content-center">
+              <img src="Flag_of_the_Dominican_Republic.svg" alt="Alex Sanchez" class="paises">
+            </div>
+            <h5 class="fw-bold">Alex Sanchez</h5>
+            <p>Director de Marketing</p>
+          </div>
+          <!-- Alex C -->
+          <div class="col-lg-3 mb-4">
+            <div class="d-flex justify-content-center">
+              <img src="Bandera_de_España.svg.png" alt="Alex Colón" class="paises">
+            </div>
+            <h5 class="fw-bold">Alex Colón</h5>
+            <p>Especialista en Ciberseguridad</p>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <p class="lead">Nuestro equipo está comprometido con la excelencia y la innovación tecnológica.</p>
+        </div>
+      </div>
+    </section>
+
+
+  <section id="faq" class="faq-section">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5" style="color: white;">Preguntas Frecuentes</h2>
+
+    <div class="acordeon">
+      <details open>
+        <summary>¿Qué servicios ofrece SabaSoft?</summary>
+        <p>Ofrecemos desarrollo de software, seguridad bancaria y optimización de procesos para instituciones financieras.</p>
+      </details>
+
+      <details>
+        <summary>¿Cómo puedo contactar con ustedes?</summary>
+        <p>Puedes contactarnos a través del formulario en la sección de contacto o enviarnos un correo a contacto@sabasoft.com.</p>
+      </details>
+
+      <details>
+        <summary>¿Qué hace único a SabaSoft?</summary>
+        <p>Nuestra experiencia, compromiso y enfoque en la innovación tecnológica nos convierten en líderes en el sector bancario.</p>
+      </details>
+
+      <details>
+        <summary>¿Qué tipo de soporte técnico ofrecen?</summary>
+        <p>Ofrecemos soporte técnico 24/7 para garantizar que nuestros clientes puedan resolver cualquier problema de manera rápida y eficiente.</p>
+      </details>
+
+      <details>
+        <summary>¿Qué tecnologías utilizan en sus soluciones?</summary>
+        <p>Utilizamos tecnologías modernas como inteligencia artificial, aprendizaje automático y blockchain para garantizar soluciones innovadoras y seguras.</p>
+      </details>
+    </div>
+
+    <div class="text-center mt-5">
+      <p class="lead" style="color: white;">¿Tienes más preguntas? <a href="../html/contacto.html" class="enlace">Contáctanos aquí</a>.</p>
+    </div>
+  </div>
+</section>
+
+<footer id="despedida">
+      <div class="container text-center">
+        <p class="mb-2 fw-bold">© SabaSoft 2025</p>
+        <p class="mb-0 small">
+          <a href="#" class="text-white text-decoration-none me-3">Política de Privacidad</a>
+          <a href="#" class="text-white text-decoration-none me-3">Términos de Uso</a>
+          <a href="#" class="text-white text-decoration-none me-3">Mapa del Sitio</a>
+          <a href="#" class="text-white text-decoration-none">Contacto</a>
+        </p>
+        <div class="mt-5">
+          <p class="small">Síguenos en nuestras redes sociales:</p>
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-5"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-linkedin fs-5"></i></a>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
